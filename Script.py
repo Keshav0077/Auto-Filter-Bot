@@ -241,7 +241,8 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>{file_name}\nUploaded By: <a herf="https://t.me/SilentXBotz">[SilentXBotz]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/moviebazaar7">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/moviebazaar7">moviebazaar7</a></b>"""
+
 
     IMDB_TEMPLATE_TXT = """
 all in one movies groups and channel👉 https://t.me/addlist/UNNBO0cOJbMyMGFl
