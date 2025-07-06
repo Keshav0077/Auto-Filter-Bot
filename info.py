@@ -53,11 +53,11 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://nitishraj66770:nitis
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movierequest707')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movie_bazaar07')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Searching7_filebot')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/pikashow_7')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+wKsff6Rqn19kZTk1')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002608186529 -1002393184501 -1002409869914") # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002799537836 -1002393184501 -1002409869914") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
-AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002608186529') # add multiple channels here, separated by single space
+AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002799537836') # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = [int(ch) for ch in AUTH_REQ_CHANNEL.strip().split()] if AUTH_REQ_CHANNEL else []
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
