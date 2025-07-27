@@ -55,7 +55,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movie_bazaar07')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/moviesbazaarsupp')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+wKsff6Rqn19kZTk1')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002799537836 -1002393184501 -1002409869914") # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002799537836 -1002393184501 -1002409869914 -1002488086781") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
 AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002799537836') # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = [int(ch) for ch in AUTH_REQ_CHANNEL.strip().split()] if AUTH_REQ_CHANNEL else []
